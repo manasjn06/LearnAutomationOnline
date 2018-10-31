@@ -1,0 +1,8 @@
+name: HybridFrameWork
+configFailurePolicy: skip
+tests:
+  - name: SmokeTest
+    classes:
+      - testcases.VerifyLoginPage
+      - testcases.VerifyHomePage
+
